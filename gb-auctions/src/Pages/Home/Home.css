@@ -1,0 +1,281 @@
+
+.home-page-outer {
+
+  background-image: url("/public/Images/banner-bg-1.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  padding: 50px 0;
+}
+.home-page-content {
+  padding: 0 50px;
+  display: flex;
+  gap: 50px;
+}
+
+.homepage-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  /* padding: 150px 0px; */
+}
+.homepage-left h2 {
+  font-weight: 500;
+  font-size: 30px;
+  color: rgb(211, 235, 187);
+}
+.homepage-left h1 {
+  font-size: 65px;
+  letter-spacing: 2px;
+}
+
+.homepage-left p {
+  width: 90%;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.homepage-left button {
+  padding: 20px 30px;
+  width: 35%;
+  font-family: Montserrat;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background: rgba(1, 147, 254, 1) 38%;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.homepage-left button:hover {
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+.homepage-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage-right img {
+  width: 95%;
+}
+
+.home-page-second {
+  padding: 80px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.head-vehicles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.veh-head-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.veh-head-button button {
+  padding: 20px 50px;
+  border-radius: 50px;
+  border: none;
+  background: rgba(1, 147, 254, 1) 38%;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  font-family: Montserrat;
+}
+
+.veh-head-button button:hover {
+  background: transparent;
+  border: 1px solid rgba(9, 90, 121, 1);
+  color: rgba(9, 90, 121, 1);
+}
+
+.product-boxes {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.product-one-home {
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  width: 31.7%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.image-icon-hammer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+.image-icon-hammer img {
+  width: 100%;
+  height: 280px;
+}
+.image-icon-hammer .star-watch {
+  position: absolute;
+  top: 13px;
+  right: 15px;
+  color: gold;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.image-icon-hammer span {
+  position: absolute;
+  top: 215px;
+  right: 15px;
+  background-color: #fff;
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.image-icon-hammer span img {
+  height: 32px;
+  width: 32px;
+}
+
+.product-name {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.product-name h2 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.bidding-information {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px dotted rgb(215, 214, 214);
+  border-bottom: 2px dotted rgb(215, 214, 214);
+  padding: 10px 0;
+}
+
+.bidding-information .current-biding {
+  width: 50%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid gray;
+}
+
+.bidding-information .current-biding span {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.bidding-information .current-biding span p {
+  font-size: 18px;
+  font-weight: 500;
+  color: green;
+}
+
+.bidding-information .current-biding span h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.bidding-information .buynow-biding {
+  width: 50%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.bidding-information .buynow-biding img, .current-biding img {
+  height: 40px;
+  width: 40px;
+}
+
+.bidding-information .buynow-biding span {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.bidding-information .buynow-biding span p {
+  font-size: 18px;
+  font-weight: 500;
+  color: red;
+}
+
+.bidding-information .buynow-biding span h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.timer-total-bids {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: -10px;
+  padding: 10px 0;
+}
+
+.days-hours-min span {
+  color: Green;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.total-numer-bids h3 {
+  font-weight: 500;
+}
+
+.product-name a {
+  padding: 20px 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 90, 121, 1) 0%,
+    rgba(0, 147, 255, 1) 37%,
+    rgba(1, 147, 254, 1) 38%
+  );
+
+  margin: 10px auto 20px auto;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-weight: 500;
+  font-size: 20px; 
+  border: 1px solid rgba(0, 147, 255, 1); 
+}
+.product-name a:hover {
+  background: transparent;
+  color: rgba(9, 90, 121, 1) !important;
+  border: 1px solid rgba(9, 90, 121, 1);
+}
+

@@ -1,0 +1,65 @@
+.product-table {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+.product-table h1 {
+    padding: 10px 0px;
+}
+
+.product-table table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+.product-table table thead {
+    text-align: left;
+}
+
+.product-table table thead tr th {
+    background: rgb(239, 239, 239);
+    padding: 17px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.product-table table tbody tr td {
+    padding: 12px 17px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.product-table table tbody tr td img {
+    height: 50px;
+    width: 50px;
+}
+
+.pop-up-users {
+    padding: 50px;
+}
+
+.delete-fetch {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.product-table table tbody tr td button {
+    padding: 7px;
+    font-family: Montserrat;
+    background: rgba(1, 147, 254, 1);
+    border: 1px solid rgba(1, 147, 254, 1);
+    color: #fff;
+    cursor: pointer;
+}
+
+.product-table table tbody tr td button:hover {
+    border: 1px solid rgba(1, 147, 254, 1);
+    background: #fff;
+    color: rgba(1, 147, 254, 1);
+
+}

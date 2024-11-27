@@ -1,0 +1,39 @@
+.product-table {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+.product-table h1 {
+    padding: 10px 0px;
+}
+
+.product-table table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+.product-table table thead {
+    text-align: left;
+}
+
+.product-table table thead tr th {
+    background: rgb(239, 239, 239);
+    padding: 17px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.product-table table tbody tr td {
+    padding: 12px 17px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.product-table table tbody tr td img {
+    height: 50px;
+    width: 50px;
+}

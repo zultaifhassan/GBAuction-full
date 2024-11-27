@@ -1,0 +1,35 @@
+
+.user-tabs {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.user-tabs h1 {
+    margin-bottom: 25px;
+}
+
+.user-tabs .tabs {
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid rgb(155, 154, 154);
+}
+
+.user-tabs .tabs button {
+    background: transparent;
+    padding: 15px 40px 15px 0;
+    border: none;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+
+.user-tabs .tabs .active {
+    border-bottom: 3px solid rgb(214, 100, 119);
+}
+
+.user-tabs .tab-content {
+    padding: 30px 0 0 0;
+}

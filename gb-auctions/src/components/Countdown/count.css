@@ -1,0 +1,20 @@
+.count-down {
+    display: flex;
+}
+
+.count-down-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Time-over {
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ending-detail {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}

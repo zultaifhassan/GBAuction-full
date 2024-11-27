@@ -1,0 +1,39 @@
+.current-table {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+.current-table h1 {
+    padding: 30px 10px;
+}
+
+.current-table table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+.current-table table thead {
+    text-align: left;
+}
+
+.current-table table thead tr th {
+    background: rgb(239, 239, 239);
+    padding: 17px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.current-table table tbody tr td {
+    padding: 12px 17px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.current-table table tbody tr td img {
+    height: 50px;
+    width: 50px;
+}

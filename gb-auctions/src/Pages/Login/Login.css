@@ -1,0 +1,124 @@
+.login-page-outer {
+  padding: 100px 50px;
+  background-image: url("/public//Images//bg-2.png");
+  background-repeat: no-repeat;
+}
+
+.login-page-inner {
+  padding: 0px 50px;
+}
+
+.login-account {
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(44, 46, 69, 0.11);
+  display: flex;
+  gap: 20px;
+  background-color: #fff;
+}
+
+.login-account form {
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 60%;
+}
+.login-account form h1 {
+  font-weight: 600;
+}
+.login-account form h2 {
+  font-weight: 500;
+}
+.login-account form p {
+  font-size: 17px;
+  font-weight: 400;
+}
+.login-inputs {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  gap: 20px;
+}
+
+.login-inputs span {
+  border: 1px solid rgb(200, 200, 200);
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.login-inputs span input {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: #000;
+  background: transparent;
+  font-family: Montserrat;
+  width: 100%;
+}
+
+.login-account button {
+  padding: 15px 30px;
+  width: 30%;
+  font-family: Montserrat;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 147, 255, 1);
+  background: rgba(1, 147, 254, 1);
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login-account button:hover {
+  border: 1px solid rgba(0, 147, 255, 1);
+  background: transparent;
+  color: rgba(0, 147, 255, 1);
+}
+
+.login-left-side {
+  /* background: linear-gradient(
+    360deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 90, 121, 1) 0%,
+    rgba(0, 147, 255, 1) 37%,
+    rgba(1, 147, 254, 1) 38%
+  ); */
+  background-image: url("/public//Images//signup.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  width: 40%;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+  border-radius: 10px;
+}
+.login-left-text {
+  border-radius: 10px;
+  background-color: #00000077;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0px 40px;
+  justify-content: center;
+  
+}
+
+.login-left-text  img {
+  height: 100px;
+  align-items: self-start;
+}
+
+.login-left-side button {
+  background: #fff;
+  border: 1px solid #fff;
+  color: #095a79;
+}
+
+.login-left-side button:hover {
+  border: 1px solid #fff;
+  color: #fff;
+}

@@ -1,0 +1,25 @@
+
+.dash-layout-outer {
+
+    background-image: url("/public//Images/dash/back.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.dashboard-layout {
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+    width: 100%;
+}
+
+.dashboard-layout .side-bar-dash {
+    width: 25%;
+    height: 100vh;
+}
+
+.dashboard-layout .dashboard-content {
+    /* border: 1px solid red; */
+    width: 70%;
+}

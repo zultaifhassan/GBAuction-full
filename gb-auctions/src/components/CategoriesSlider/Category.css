@@ -1,0 +1,115 @@
+
+.category-slider-outer {
+    background-color: rgba(246, 243, 243, 0.601);
+    padding: 50px 0px;
+}
+.category-slider-outer .categaory-outer-slider {
+    padding: 20px 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.category-slider-outer .review-slider-head {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review-slider-head h1 {
+    font-weight: 600;
+}
+
+.categaory-outer-slider  .swiper {
+    width: 100%;
+    position: static;
+    margin: auto;
+}
+
+.category-slider-outer .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    gap: 30px;
+    padding: 5px 0;
+}
+
+
+.category-slider-outer .swiper-button-next:after {
+    position: absolute;
+    top: -115px;
+    right: 40px;
+    font-size: 15px;
+    background-color: #007bff;
+    height: 30px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.category-slider-outer .swiper-button-prev:hover:after {
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.category-slider-outer .swiper-button-prev:after {
+    position: absolute;
+    top: -115px;
+    left: 1230px;
+    font-size: 15px;
+    background-color: #007bff;
+    height: 30px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 0.3s ease;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.category-slider-outer .swiper-button-next:hover:after {
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+.category-slider-inner {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 30px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.category-slider-inner a{
+    color: #000;
+}
+.category-slider-inner:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 23px;
+    border: 1px solid rgb(225, 225, 225);
+    cursor: pointer;
+}
+.category-slider-inner img {
+    height: 88px;
+}
+
+.category-slider-inner h1 {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+}

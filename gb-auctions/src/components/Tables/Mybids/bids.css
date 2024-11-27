@@ -1,0 +1,23 @@
+.bids-tables {
+    padding: 50px;
+}
+
+.bids-tables h1 {
+    margin-bottom: 30px;
+}
+
+.bids-tables table tbody tr td button {
+    padding: 7px;
+    font-family: Montserrat;
+    background: rgba(1, 147, 254, 1);
+    border: 1px solid rgba(1, 147, 254, 1);
+    color: #fff;
+    cursor: pointer;
+}
+
+.bids-tables table tbody tr td button:hover {
+    border: 1px solid rgba(1, 147, 254, 1);
+    background: #fff;
+    color: rgba(1, 147, 254, 1);
+
+}

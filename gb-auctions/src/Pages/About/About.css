@@ -1,0 +1,95 @@
+
+.about-page-first-outer {
+    background-image: url("/public/Images/hero-bg.png");
+    padding: 50px 0;
+    color: #fff;
+    background-repeat: no-repeat;
+}
+.about-pagr-inner {
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.about-right-side {
+    width: 60%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-right-side h1 {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.about-right-side h2 {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.about-right-side p {
+    text-align: justify;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgb(245, 244, 244);
+}
+.about-left-side {
+    display: flex;
+}
+
+.about-left-side img {
+    width: 100%;
+}
+
+.about-page-second {
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.second-about-head {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-page-second h1 {
+    font-weight: 600;
+}
+
+.team-card-one {
+    width: 30%;
+    box-shadow: 0px 6px 18px 0px rgba(16, 5, 54, 0.17);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.team-card-one img {
+    width: 100%;
+    height: 280px;
+}
+
+.teams-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-member-detail {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.team-member-detail h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.team-member-detail h4 {
+    font-weight: 600;
+}

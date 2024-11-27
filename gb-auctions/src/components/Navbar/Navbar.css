@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.max-width {
+  max-width: 1440px;
+  margin: auto;
+  font-family: Montserrat;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+.top-navbar {
+ 
+  background: #5242BB
+}
+
+.top-navbar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Montserrat;
+  padding: 30px 50px;
+}
+
+.top-navbar-right {
+  padding: auto;
+}
+.top-navbar .top-navbar-right a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-navbar .top-navbar-right img {
+  height: 60px;
+  margin: auto;
+}
+.top-navbar .top-navbar-right a {
+  color: #fff;
+}
+
+.top-navbar-right .togggle-bar {
+  display: none;
+}
+.top-navbar .top-navbar-center {
+  display: flex;
+  gap: 70px;
+}
+
+.top-navbar .top-navbar-center a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.5px;
+  padding: 0 0 10px 0;
+  border-bottom: 3px solid transparent;
+}
+
+.top-navbar .top-navbar-left button {
+  padding: 15px 50px;
+  border-radius: 30px;
+  border: 1px solid #007bff;
+  font-family: Montserrat;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+  color: #007bff;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.top-navbar .top-navbar-left button:hover {
+  background-color: #007bff;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.top-navbar-center a.active1, .top-navbar-center a:hover {
+  color: #fff !important;
+  border-bottom: 3px solid #fff;
+}
+
+@media (max-width: 430px) {
+  .top-navbar {
+    width: 100%;
+    padding: 15px;
+  }
+  .top-navbar nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .top-navbar-right {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
+  .top-navbar-right .togggle-bar {
+    display: block;
+    display: flex;
+    color: #fff;
+  }
+  .top-navbar .top-navbar-center {
+    position: absolute;
+    right: 0;
+    top: 80px;
+    background-color: #ffff;
+    width: 0px;
+    height: calc(80vh - 60px);
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .top-navbar .top-navbar-center a {
+    font-size: 16px;
+  }
+
+  .top-navbar-center .active {
+    height: 100%;
+  }
+}

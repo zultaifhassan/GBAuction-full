@@ -1,0 +1,60 @@
+.profile-main-div {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 50px;
+}
+.head-edit-dash {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-edit-dash button {
+  background: gray;
+  border: none;
+  font-family: Montserrat;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 90, 121, 1) 0%,
+    rgba(0, 147, 255, 1) 37%,
+    rgba(1, 147, 254, 1) 38%
+  );
+}
+.personal-details-div {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 50px 0 20px 0;
+}
+.personal-details-div h2:nth-child(1) {
+  width: 200px;
+}
+
+.personal-details-div h2 {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.personal-details-mail {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 30px 0;
+}
+
+.personal-details-mail h2:nth-child(1) {
+  width: 200px;
+}
+
+.personal-details-mail h2 {
+  font-size: 21px;
+  font-weight: 600;
+}
